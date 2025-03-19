@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'am Yagasaki</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>I' am Yagasaki</h1>
+        </header>
+
+        <main>
+            <!-- Sobre mim -->
+            <section class="post pastel-red">
+                <h2>Sobre Mim</h2>
+                <p>CTO, Tech Lead e Software Developer na <a href="https://engide.com.br/" target="_blank">Engide</a>, Software Developer na <a href="https://github.com/astriia-com" target="_blank">Astriia</a>, e Mid-Level Software Developer (Javascript, Typescript, NodeJS, Bun, Express, Firebase, Lua, Python, etc).</p>
+                <p>Sou um defensor dedicado de Javascript e Typescript, e ocasionalmente exploro outras linguagens. Sou autodidata e você pode ler mais sobre mim no <a href="https://yagasaki.vercel.app/about" target="_blank">sobre mim</a>.</p>
+            </section>
+
+            <!-- Conquistas e Projetos -->
+            <section class="post pastel-green">
+                <h2>Conquistas</h2>
+                <p>3º lugar no hackathon da Ambev e trabalhei na Stone Co em 2023.</p>
+                <p>Projetos Notáveis:</p>
+                <ul>
+                    <li><a href="https://steamfolio.vercel.app/" target="_blank">Steamfolio</a></li>
+                    <li><a href="https://sintoniasp.vercel.app/" target="_blank">Sintoniasp</a></li>
+                    <li><a href="https://webessentials.vercel.app/" target="_blank">Webessentials</a></li>
+                    <li><a href="https://onigirihardcore.vercel.app/" target="_blank">Onigirihardcore</a></li>
+                </ul>
+            </section>
+
+            <!-- Localização e Contato -->
+            <section class="post pastel-purple">
+                <h2>Onde me encontrar</h2>
+                <p>Atualmente moro em São Paulo, Brasil. Mas você pode me encontrar online através das plataformas e links acima.</p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
+
+<style> 
+/* Importando fontes */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Modo Escuro */
+body {
+    background-color: #1c1c1c;
+    color: #fff;
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Container principal */
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 45px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
+    font-weight: 700;
+    color: #ffffff;
+}
+
+/* Estilizando posts */
+.post {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.9);
+    transition: transform 0.2s, opacity 0.2s;
+}
+
+.post:hover {
+    transform: scale(1.02);
+    opacity: 0.95;
+}
+
+/* Cores pastéis */
+.pastel-red { background: #FADBD8; }
+.pastel-green { background: #D5F5E3; }
+.pastel-purple { background: #E8DAEF; }
+
+/* Texto dentro dos posts deve ser preto */
+.post h2, .post p, .post a, .post ul, .post li {
+    color: #000;
+}
+
+/* Links dentro dos posts */
+.post a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+/* Ajuste do título das seções */
+h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+/* Lista dentro dos posts */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+</style>
